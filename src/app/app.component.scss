@@ -1,0 +1,15 @@
+.header {
+    &__content {
+        display: grid;
+        padding: 1em;
+        border: 1px solid #bfbfbf;
+        background-color: #f2f5f9;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    &__desc {
+        font-weight: 800;
+        font-size: 24px;
+        text-align: center;
+    }
+}

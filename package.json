@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:dev": "ng build --output-hashing=none && node build-script.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -14,10 +15,13 @@
     "@angular/common": "~12.0.4",
     "@angular/compiler": "~12.0.4",
     "@angular/core": "~12.0.4",
+    "@angular/elements": "^13.0.2",
     "@angular/forms": "~12.0.4",
     "@angular/platform-browser": "~12.0.4",
     "@angular/platform-browser-dynamic": "~12.0.4",
     "@angular/router": "~12.0.4",
+    "concat": "^1.0.3",
+    "fs-extra": "^10.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
